@@ -50,7 +50,6 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
@@ -67,7 +66,7 @@ const EmailSection = () => {
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-            Thank you for contacting me, I'll get back to you shortly!
+            Thank you for contacting me, I&apos;ll get back to you shortly!
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
