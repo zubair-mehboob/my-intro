@@ -116,8 +116,17 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Led the development of multiple mobile applications.</li>
+        <li>Architect the app structure to improve reusability and to reduce development time.</li>
+        <li>Architect the app structure to improve reusability and to reduce development time.</li>
+        <li>Mentored junior developers, conducted code reviews, training sessions and improved the development
+        process</li>
+        <li>Debugged and resolved critical issues, resulting in a 20% reduction in crash rates</li>
+        <li>Managed project tasks and workflows using Jira, including backlog grooming, sprint planning, and issue
+        tracking.</li>
+        <li>Implement unit tests and participate in continuous integration and deployment processes.</li>
+        <li>Customized Jira workflows and configurations to align with team processes and project requirements.
+        </li>
       </ul>
     ),
   },

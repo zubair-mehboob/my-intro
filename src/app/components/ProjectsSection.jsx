@@ -7,58 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    title: "Hundo App Store",
+    description: `Introducing Hundo, the future of meal plan ordering. Say goodbye to meal planning hassles as Hundo simplifies your journey to nutritious and delicious meal plans. With Hundo, you gain exclusive access to a variety of your favorite UAE meal plan providers, all in one convenient app.
+
+Hundo provides you with access to a selection of incredible meal plan providers from one simple to use app. Browse different providers, order and pick your meals straight from your smartphone and take advantage of variety when you're looking for a new`,
+    image: "/images/projects/hundo.webp",
+    tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://apps.apple.com/pk/app/hundo-meal-plan-finder/id6468573038",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    title: "Hundo Play Store",
+    description: `Introducing Hundo, the future of meal plan ordering. Say goodbye to meal planning hassles as Hundo simplifies your journey to nutritious and delicious meal plans. With Hundo, you gain exclusive access to a variety of your favorite UAE meal plan providers, all in one convenient app.
+
+Hundo provides you with access to a selection of incredible meal plan providers from one simple to use app. Browse different providers, order and pick your meals straight from your smartphone and take advantage of variety when you're looking for a new`,
+    image: "/images/projects/hundo1.webp",
+    tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://play.google.com/store/apps/details?id=com.hundo.app",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Hisaab",
+    description: "Hisaab is an accounting app which helps to manage credit, debit and day to day transactions",
+    image: "/images/projects/hisaab.webp",
+    tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://play.google.com/store/apps/details?id=com.app.retailohisaab&hl=en&pli=1",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    title: "Traer",
+    description: `Are you looking for online shopping app? Are you looking for online earning? Yes, you are at right place. We will deliver whatever you need from all over the world, wherever you are.
+
+Traer is the only application which allows the travellers and buyers to connect with each other. Travel and earn money with online shopping. There are many other online shopping apps but this app allows you to earn while doing shopping.`,
+    image: "/images/projects/traer.webp",
     tag: ["All", "Mobile"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://play.google.com/store/apps/details?id=com.traer&pcampaignid=web_share",
   },
+  
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    title: "Ticketing App",
+    description: "This is ticketing app in which user can create, edit and delete ticket, also user can track the different status of the ticket",
+    image: "/images/projects/coming_soon.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/zubair-mehboob/local_first_app",
     previewUrl: "/",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  
 ];
 
 const ProjectsSection = () => {
