@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "https://my-intro-zubairs-projects-d6f4458a.vercel.app/",
+        "destination": "https://zubair-mehboob-chishty.vercel.app/",
+        "permanent": true
+      }
+    ]
+  }
+  
